@@ -65,6 +65,15 @@ The dataset was collected using the **Yahoo Finance API (`yfinance`)**, which pr
 ![Dataset Preview](01_dataset_preview.png.png)
 
 ---
+
+## Risk Class Distribution
+
+This chart shows the distribution of stock market observations across the three risk categories (Low, Medium, and High). It helps verify whether the dataset is balanced before training the machine learning models.
+
+![Risk Class Distribution](02_risk_class_distribution.png.png)
+
+---
+
 ## Technologies Used
 
 | Technology | Purpose |
@@ -117,7 +126,7 @@ The following classification algorithms were implemented:
 The performance of all models was evaluated using the testing dataset, and the best-performing model was selected for final deployment.
 
 ---
-## 📊 Model Performance Comparison
+##  Model Performance Comparison
 
 | Machine Learning Model | Accuracy |
 |-------------------------|----------|
