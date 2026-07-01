@@ -73,7 +73,13 @@ This chart shows the distribution of stock market observations across the three 
 ![Risk Class Distribution](02_risk_class_distribution.png.png)
 
 ---
+## Target Verification
 
+The target variable is created by shifting the current day's risk category to the next trading day. This ensures that the model predicts the **next day's stock risk** rather than the current day's risk.
+
+![Target Verification](03_target_verification.png.png)
+
+---
 ## Technologies Used
 
 | Technology | Purpose |
@@ -139,6 +145,18 @@ The performance of all models was evaluated using the testing dataset, and the b
 
 The **Support Vector Machine (SVM)** achieved the highest prediction accuracy and was selected as the final model for predicting the next trading day's stock risk.
 
+
+### Model Comparison Table
+
+The table below compares the performance of all machine learning models used in this project.
+
+![Model Comparison Table](04.1_model_comparison_table.png.png)
+
+### Model Comparison Chart
+
+The chart provides a visual comparison of model accuracies, making it easier to identify the best-performing algorithm.
+
+![Model Comparison Chart](04.2_model_comparison_barchart.png.png)
 ---
 ##  Feature Importance
 
