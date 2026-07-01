@@ -247,7 +247,7 @@ jupyter notebook
 Run all notebook cells sequentially to reproduce the complete Machine Learning workflow.
 
 ---
-## 🏁 Conclusion
+##  Conclusion
 
 This project demonstrates an end-to-end Machine Learning workflow for predicting the next trading day's stock risk using historical market data.
 
@@ -256,4 +256,5 @@ Starting from data collection and preprocessing, the project applies feature eng
 The project highlights practical applications of Machine Learning in financial risk analysis while following industry-standard practices such as model serialization, reproducibility, and structured project organization.
 
 ---
+
 
