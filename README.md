@@ -62,6 +62,10 @@ The dataset was collected using the **Yahoo Finance API (`yfinance`)**, which pr
 | Risk_Class | Risk category (Low, Medium, High) based on Z-Score |
 | Target | Next trading day's risk category used for prediction |
 
+
+## Dataset Preview
+
+![Dataset Preview](01_dataset_preview.png)
 ---
 ## Technologies Used
 
@@ -77,6 +81,8 @@ The dataset was collected using the **Yahoo Finance API (`yfinance`)**, which pr
 | Joblib | Model Serialization |
 | Jupyter Notebook | Project Development |
 
+
+![Dataset Preview](01_dataset_preview.png)
 ---
 ## Machine Learning Workflow
 
